@@ -1,0 +1,24 @@
+*********************Inicializar y dependencias***************************
+npm init -y
+npm i morgan -D 
+npm i cors dotenv express mongoose multer
+
+
+morgan -> testear
+cors -> cliente web
+dotenv -> variables de entorno
+express ->
+mongoose -> conexion base de datos
+multer ->subir archivos
+
+*********************DB MONGO*******************************
+
+mongod
+
+mongod -> inicializa servidor
+
+*****************pruebas*****************
+http://localhost:3000/api/juegos
+
+
+********************GIT**************
