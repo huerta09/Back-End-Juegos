@@ -22,3 +22,28 @@ http://localhost:3000/api/juegos
 
 
 ********************GIT**************
+git init
+git add.
+git commit -m "Initial commit"
+git remote add origin https://github.com/huerta09/Back-End-Juegos
+*traer cambios del repositorio remoto
+git pull origin main 
+*enviar al repositorio remoto 
+git push -u origin main 
+*enviar forzado al repositorio
+git push -f origin main
+
+MODELO: git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+
+REPOSITORIO: https://github.com/huerta09/Back-End-Juegos
+
+******************CI******************
+git add .github/workflows/ci.yml
+git commit -m "Add CI pipeline configuration"
+git push origin main
+
+
+**************Azure Pipelines***********
+git add azure-pipelines.yml
+git commit -m "Add Azure Pipelines configuration"
+git push origin main
